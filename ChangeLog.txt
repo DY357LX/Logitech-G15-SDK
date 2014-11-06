@@ -1,0 +1,10 @@
+MODIFICATION HISTORY
+
+
+Logitech Gaming LCD SDK
+
+  1.01.001 - December 2012
+    Initial full revamp of LCD SDK.
+
+  1.01.002 - February 2013
+    Fixed memory leak problem in the LogiLcdColorSetBackground and LogiLcdMonoSetBackground functions.

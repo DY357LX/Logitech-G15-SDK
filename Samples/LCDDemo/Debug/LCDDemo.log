@@ -1,0 +1,39 @@
+﻿Build started 27/07/2013 11:10:19.
+     1>Project "E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\LCDDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LCDDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../ /I../../Include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\LCDDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../ /I../../Include /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\LCDDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LCDDemo.cpp LCDDemoDlg.cpp
+         LCDDemoDlg.cpp
+         LCDDemo.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\LCDDemo.res" LCDDemo.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LCDDemo.exe.embed.manifest.res" Debug\LCDDemo_manifest.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../Debug /LIBPATH:../../Lib/x86 /MANIFEST /ManifestFile:"Debug\LCDDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.lib" /MACHINE:X86 Debug\LCDDemo.res
+         Debug\LCDDemo.exe.embed.manifest.res
+         Debug\LCDDemo.obj
+         Debug\LCDDemoDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LCDDemo.exe.embed.manifest" /manifest Debug\LCDDemo.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LCDDemo.exe.embed.manifest.res" Debug\LCDDemo_manifest.rc 
+       LinkEmbedManifest:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:../../Debug /LIBPATH:../../Lib/x86 /MANIFEST /ManifestFile:"Debug\LCDDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.lib" /MACHINE:X86 Debug\LCDDemo.res
+         Debug\LCDDemo.exe.embed.manifest.res
+         Debug\LCDDemo.obj
+         Debug\LCDDemoDlg.obj
+         Debug\stdafx.obj
+         LCDDemo.vcxproj -> E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\Debug\LCDDemo.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LCDDemo.unsuccessfulbuild".
+         Touching "Debug\LCDDemo.lastbuildstate".
+     1>Done Building Project "E:\C++\LogitechLCDSDK_1.01.002\Samples\LCDDemo\LCDDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.05
